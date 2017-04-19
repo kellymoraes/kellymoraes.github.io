@@ -1,0 +1,43 @@
+html, body{
+	height:100%;
+	background-color: #A9A9A9;
+	font-family: "Roboto";
+	font-weight:300;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	-webkit-font-smoothing: antialiased;
+}
+
+.container{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+
+.texto h1, p{
+	text-align: center;
+	color:#f1f1f1;
+}
+	   h1{
+	   		font-size:calc(8vw + 8vh + 2vmin);
+	   }
+
+	   p{
+	   		font-size:calc(0.4vw + 0.4vh + 2vmin);
+	   		line-height: 1.4em;
+	   }
+
+	   p span{
+			color: #fff;
+			font-style: italic;
+		}
+
+		p a{
+			text-decoration: none;
+			color: #fff;
+		}
+
+
+	
