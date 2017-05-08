@@ -223,19 +223,34 @@ section.experiencia h4{
 	.experiencia .tcc h4{
 		font-weight: 400;
 		font-style: italic;
-		margin-top:20px;
+		margin-top:40px;
+	}
+
+	.experiencia .tcc h4 span{
+		font-weight: bold;
+		font-style: italic;
+		margin-top:40px;
 	}
 
 	section.experiencia p{
 			line-height: 1.5;
-			margin: 10px 0;
-			padding: 0px 0px 40px 0;
+			margin: 20px 0;
+			padding: 0px 0px 10px 0;
 			text-align: justify;	
 	}
 
 		.experiencia .tcc .line{
 			position: relative;
-			top:10px;
+			top:20px;
+		}
+
+		.line-end{
+			border-top: 1px solid black;
+			width: 900px;
+			position: relative;
+			bottom: 2px;
+			padding-bottom: 40px;
+			z-index: 0;
 		}
 
 
