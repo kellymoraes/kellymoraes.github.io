@@ -53,7 +53,7 @@ html, body{
 		max-width: 1000px;
 		display: flex;
 		flex-direction:row;
-		flex-wrap: wrap;
+        flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
 	}
@@ -64,7 +64,7 @@ html, body{
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		margin: 20px 60px;
+		margin: 20px 40px;
 		cursor:pointer;
 	}
 
@@ -95,6 +95,13 @@ html, body{
 
 		ul li .fa-github{
 			font-size: calc(1.8vw + 1.6vh + 2vmin);
+			/*padding: 35px 40px;
+			-webkit-border-radius: 150px;
+			border: 2px solid white; */
+			text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+			}	
+        ul li .fa-dribbble{
+			font-size: calc(1.6vw + 1.1vh + 2vmin);
 			/*padding: 35px 40px;
 			-webkit-border-radius: 150px;
 			border: 2px solid white; */
